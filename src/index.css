@@ -21,6 +21,7 @@
 button {
   border: 1px solid rgb(220, 218, 218);
   font-weight: bold;
+  cursor: pointer;
 }
 
 .output {
@@ -29,7 +30,7 @@ button {
   grid-column-start: 1;
   grid-column-end: span 4;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   padding-right: 2px;
   font-size: 20px;
