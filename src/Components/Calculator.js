@@ -15,7 +15,7 @@ class Calculator extends Component {
 
   render() {
     const { total, next, operation } = this.state;
-    const result  = `${total}${operation}${next}`.replace(/null/g, '').replace(/undefined/g, '');
+    const result = `${total}${operation}${next}`.replace(/null/g, '').replace(/undefined/g, '');
     return (
       <div className="calculator-container">
         <div className="output">{result === '' ? '0' : result}</div>
