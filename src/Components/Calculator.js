@@ -22,11 +22,11 @@ class Calculator extends Component {
         <button className="ac" type="button" onClick={this.handleClick}>AC</button>
         <button className="plus-minus" type="button" onClick={this.handleClick}>+/-</button>
         <button className="percentage" type="button" onClick={this.handleClick}>%</button>
-        <button className="division" type="button" onClick={this.handleClick}>/</button>
+        <button className="division" type="button" onClick={this.handleClick}>÷</button>
         <button className="seven" type="button" onClick={this.handleClick}>7</button>
         <button className="eight" type="button" onClick={this.handleClick}>8</button>
         <button className="nine" type="button" onClick={this.handleClick}>9</button>
-        <button className="product" type="button" onClick={this.handleClick}>*</button>
+        <button className="product" type="button" onClick={this.handleClick}>x</button>
         <button className="four" type="button" onClick={this.handleClick}>4</button>
         <button className="five" type="button" onClick={this.handleClick}>5</button>
         <button className="six" type="button" onClick={this.handleClick}>6</button>
