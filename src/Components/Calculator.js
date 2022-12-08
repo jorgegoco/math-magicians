@@ -5,8 +5,8 @@ const Calculator = () => {
   const [state, setState] = useState({
     total: null,
     next: null,
-    operation: null
-  })
+    operation: null,
+  });
 
   const handleClick = (e) => setState((obj) => calculate(obj, e.target.innerText));
 
@@ -36,6 +36,6 @@ const Calculator = () => {
       <button className="equal" type="button" onClick={handleClick}>=</button>
     </div>
   );
-}
+};
 
 export default Calculator;
