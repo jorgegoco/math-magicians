@@ -5,30 +5,20 @@ class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: 0,
+      total: null,
       next: null,
       operation: null,
     };
   }
 
-  handleClick(e) {
-    const buttonValue = e.target.className;
-    return this.setState((obj) => calculate(obj, buttonValue));
-  }
-
-  // onChangeHandler(e) {  
-  // }
+  handleClick = (e) => this.setState((obj) => calculate(obj, e.target.innerText));
 
   render() {
     const { total, next, operation } = this.state;
-    const result = `${total}${operation}${next}`.replace(/null/g, '');
-    const trimedResult = result.replace(/undefined/g, '');
+    const result  = `${total}${operation}${next}`.replace(/null/g, '').replace(/undefined/g, '');
     return (
       <div className="calculator-container">
-        <div className="output">
-          {trimedResult}
-          {/* <input onChange={onChangeHandler} /> */}
-        </div>
+        <div className="output">{result === '' ? '0' : result}</div>
         <button className="ac" type="button" onClick={this.handleClick}>AC</button>
         <button className="plus-minus" type="button" onClick={this.handleClick}>+/-</button>
         <button className="percentage" type="button" onClick={this.handleClick}>%</button>
