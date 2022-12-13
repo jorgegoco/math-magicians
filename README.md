@@ -21,16 +21,13 @@
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Math-Magicians] <a name="about-project"></a>
+# 📖 Math-Magicians <a name="about-project"></a>
 
-**[Math-Magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+**Math-Magicians** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 - Make simple calculations.
 - Read a random math-related quote.
 
@@ -53,7 +50,6 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -118,29 +114,14 @@ npm run deploy
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Jorge**
 
 - GitHub: [@githubhandle](https://github.com/jorgegoco)
 - Twitter: [@twitterhandle](https://twitter.com/JorgeGo78017548)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorge-gonz%C3%A1lez-b1a50714b/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -149,29 +130,11 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/jorgegoco/math-magicians/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project...- give it a ⭐️!
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
