@@ -7,10 +7,75 @@
   list-style-type: none;
 }
 
+body {
+  background-image: linear-gradient(yellow, white);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  margin: 0 5%;
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-image: linear-gradient(red, yellow);
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+nav ul {
+  display: flex;
+  column-gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.homeSection {
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.homeSection h1 {
+  font-size: 30px;
+}
+
+.homeSection p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.homeSection li {
+  margin-left: 7%;
+  list-style-type: disc;
+  font-size: 18px;
+}
+
+.calculatorSection {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.calculatorSection h1 {
+  font-size: 30px;
+}
+
 .calculator-container {
   width: 50%;
   margin: auto;
-  margin-top: 100px;
   height: 50vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -47,4 +112,18 @@ button {
 .plus,
 .equal {
   background-color: orange;
+}
+
+.quoteSection {
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.quoteSection p {
+  font-size: 24px;
+}
+
+.quoteSection span {
+  font-weight: 600;
 }

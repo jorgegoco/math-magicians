@@ -1,28 +1,16 @@
 import React from 'react';
 
-const Home = () => {
-  const headerStyle = {
-    padding: '20px 0',
-    lineHeight: '1.5em',
-  };
-
-  return (
-    <header style={headerStyle}>
-      <h1
-        style={{
-          fontSize: '6rem',
-          fontWeight: '600',
-          marginBottom: '2rem',
-          lineHeight: '1em',
-          color: '#ececec',
-          textTransform: 'lowercase',
-          textAlign: 'center',
-        }}
-      >
-        Home
-      </h1>
-    </header>
-  );
-};
-
+const Home = () => (
+  <section className="homeSection">
+    <h1>Welcome to our page!</h1>
+    <p>
+      &#34;Math magicians&#34; is a website for all fans of mathematics.
+      It is a Single Page App &#40;SPA&#41; that allows users to:
+    </p>
+    <ul>
+      <li>Make simple calculations.</li>
+      <li>Read a random math-related quote.</li>
+    </ul>
+  </section>
+);
 export default Home;
