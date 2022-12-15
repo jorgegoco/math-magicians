@@ -21,7 +21,6 @@ describe('Tests for the operate function', () => {
     expect(operate(5, 3, '%')).toBe('2');
   });
 
-
   test('Test  "x" operation', () => {
     expect(operate(2, 3, 'x')).toBe('6');
   });
