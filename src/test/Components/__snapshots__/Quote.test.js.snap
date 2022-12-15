@@ -6,11 +6,11 @@ exports[`Quote component test snapshot renders 1`] = `
 >
   <p>
     "
-    Some people believe in imaginary friends. I believe in imaginary numbers.
+    The art of doing mathematics is finding that special case that contains all the germs of generality.
     "  
     <span>
       --
-      R.M. ArceJaeger
+      David Gilbert
       ;
     </span>
   </p>
