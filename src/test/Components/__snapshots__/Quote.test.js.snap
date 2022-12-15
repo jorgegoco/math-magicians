@@ -6,11 +6,11 @@ exports[`Quote component test snapshot renders 1`] = `
 >
   <p>
     "
-    You know, for a mathematician, he did not have enough imagination. But he has become a poet and now he is fine.
+    Some people believe in imaginary friends. I believe in imaginary numbers.
     "  
     <span>
       --
-      David Hilbert
+      R.M. ArceJaeger
       ;
     </span>
   </p>
