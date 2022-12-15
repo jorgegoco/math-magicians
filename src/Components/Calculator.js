@@ -8,7 +8,7 @@ const Calculator = () => {
     operation: null,
   });
 
-  const handleClick = (e) => setState((obj) => calculate(obj, e.target.innerText));
+  const handleClick = (e) => setState((obj) => calculate(obj, e.target.textContent));
 
   const { total, next, operation } = state;
   const result = `${total}${operation}${next}`.replace(/null/g, '').replace(/undefined/g, '');
