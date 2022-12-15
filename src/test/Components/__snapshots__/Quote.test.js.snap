@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component test snapshot renders 1`] = `
+<section
+  className="quoteSection"
+>
+  <p>
+    "
+    You know, for a mathematician, he did not have enough imagination. But he has become a poet and now he is fine.
+    "  
+    <span>
+      --
+      David Hilbert
+      ;
+    </span>
+  </p>
+</section>
+`;

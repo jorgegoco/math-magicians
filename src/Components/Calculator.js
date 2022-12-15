@@ -3,7 +3,7 @@ import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({
-    total: null,
+    total: 0,
     next: null,
     operation: null,
   });
@@ -16,7 +16,7 @@ const Calculator = () => {
     <section className="calculatorSection">
       <h1>Let&#39;s do some math!</h1>
       <div className="calculator-container">
-        <div className="output">{result === '' ? '0' : result}</div>
+        <div className="output" data-testid="testResult">{result === '' ? '0' : result}</div>
         <button className="ac" type="button" onClick={handleClick}>AC</button>
         <button className="plus-minus" type="button" onClick={handleClick}>+/-</button>
         <button className="percentage" type="button" onClick={handleClick}>%</button>
