@@ -127,3 +127,15 @@ button {
 .quoteSection span {
   font-weight: 600;
 }
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    margin-top: 20px;
+  }
+  
+}
+
