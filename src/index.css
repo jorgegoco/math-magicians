@@ -136,6 +136,16 @@ button {
   nav ul {
     margin-top: 20px;
   }
+
+  .calculatorSection {
+    flex-direction: column;
+  }
+
+  .calculator-container {
+    margin-top: 40px;
+    width: 80%;
+    height: 40vh;
+  }
   
 }
 
